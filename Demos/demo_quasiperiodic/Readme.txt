@@ -1,1 +1,1 @@
-Run the file "demo_quasi" to run the demo.
+Execute the file "demo_quasi" to run the demo.
