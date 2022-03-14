@@ -1,4 +1,4 @@
-# DDE_Toolbox_COCO: 
+# DDE_Toolbox: 
 
 1. This repository contains the code used to produce the results in the paper: Ahsan, Dankowicz, Li and Sieber, “Methods
 of Continuation and their Implementation in the COCO Software Platform with application
