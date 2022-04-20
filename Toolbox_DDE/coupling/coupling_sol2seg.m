@@ -1,20 +1,5 @@
 function prob = coupling_sol2seg(prob, oid, W, varargin)
-%COLL_SOL2SEG   Append 'coll' instance constructed from saved data.
-%
-% Support restarting continuation from a previously obtained solution,
-% stored to disk.
-%
-% PROB     = COLL_SOL2SEG(PROB, OID, VARARGIN)
-% VARARGIN = { RUN [SOID] LAB }
-%
-% PROB - Continuation problem structure.
-% OID  - Target object instance identifier (string).
-% RUN  - Run identifier (string).
-% SOID - Source object instance identifier (string).
-% LAB  - Solution label (integer).
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: coll_sol2seg.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan
 
 if isempty(W)
 tbid = coco_get_id(oid, 'coupling'); % Create toolbox instance identifier
