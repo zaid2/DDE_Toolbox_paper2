@@ -1,5 +1,7 @@
 function [data, y] = bc_conn(prob, data, u)
 
+% Copyright (C) Zaid Ahsan
+
 T0  = u(1);
 x1  = u(2:3);
 p2  = u(4);
