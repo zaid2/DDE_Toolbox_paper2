@@ -1,5 +1,7 @@
 %% Duffing oscillator: Frequency Response Curve
 
+% Copyright (C) Zaid Ahsan
+
 zeta  = 5*10^(-3);
 mu    = 1;
 a     = 7.5*10^(-3);
