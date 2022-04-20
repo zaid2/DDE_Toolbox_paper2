@@ -1,5 +1,5 @@
 function data = adjt_coupling_init_data(prob, src_data) %#ok<INUSL>
-
+% Copyright (C) Zaid Ahsan, Mingwu Li
 seg  = src_data.ddaecoll_seg;
 data.coupling_seg = src_data;
 coupling_seg = data.coupling_seg; % coupling function data
