@@ -1,5 +1,7 @@
 function [t0,x0,y0] = init_guess_duffing(alpha,Omega,k,mu,zeta,a,b)
 
+% Copyright (C) Zaid Ahsan
+
 sol = dde23(@ddex1de,alpha,@ddex1hist,[0, 500],[],Omega,k,mu,zeta,a,b);
 % figure;
 % plot(sol.x,sol.y(1,:))
