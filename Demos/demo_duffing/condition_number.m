@@ -1,6 +1,7 @@
 %===condition number and frequency response computations
 coco_use_recipes_toolbox ddecoll_vz1
 %% Frequency response curve
+% Copyright (C) Zaid Ahsan
 
 run='run2';
 
