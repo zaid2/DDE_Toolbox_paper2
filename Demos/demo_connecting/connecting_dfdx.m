@@ -1,5 +1,7 @@
 function J = connecting_dfdx(t,x,y,p)
 
+% Copyright (C) Zaid Ahsan
+
 x1 = x(1,:);
 x2 = x(2,:);
 
