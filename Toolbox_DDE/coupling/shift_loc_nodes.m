@@ -1,5 +1,5 @@
 function [idx,tc] = shift_loc_nodes(tauh,tauint)
-
+% Copyright (C) Zaid Ahsan
 tauh = tauh(:); tauint = tauint(:);
 len2 = length(tauint);  %====NTST+1
 len1 = length(tauh);    %====Number of shifted time points
