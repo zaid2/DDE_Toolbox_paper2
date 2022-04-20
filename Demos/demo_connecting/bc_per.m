@@ -1,5 +1,6 @@
 function [data, y] = bc_per(prob, data, u)
 
+% Copyright (C) Zaid Ahsan
 
 T0  = u(1);
 x02 = u(2);
