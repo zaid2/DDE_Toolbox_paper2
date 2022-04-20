@@ -1,5 +1,6 @@
 function y = hist(t,p)
 
+% Copyright (C) Zaid Ahsan
 
 p1 = p(1,:);
 p2 = p(2,:);
