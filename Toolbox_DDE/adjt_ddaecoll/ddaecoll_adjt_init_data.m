@@ -1,10 +1,5 @@
 function data = ddaecoll_adjt_init_data(prob, src_data) %#ok<INUSL>
-%COLL_ADJT_INIT_DATA   Initialize data structure for a 'coll' adjoint problem.
-%
-% See also ODE_INIT_DATA, COCO_SAVE_DATA, COCO_FUNC_DATA.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz, Mingwu Li
-% $Id: ode_init_data.m 2902 2015-10-09 18:06:32Z hdankowicz $
+% Copyright (C) Zaid Ahsan, Mingwu Li
 
 data.ddaecoll_seg = src_data;
 
