@@ -1,5 +1,5 @@
 function data = coupling_init_data(data,p0)
-%COLL_INIT_DATA   Initialize toolbox data for an instance of 'coll'.
+% Copyright (C) Zaid Ahsan
 
 Ci = length(data.Xj);  % number of coupling conditions
 data.Ci = Ci;
