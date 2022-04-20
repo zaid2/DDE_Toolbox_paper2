@@ -1,5 +1,7 @@
 function J = fcn_ctrl_dtdp(t,p)
 
+% Copyright (C) Zaid Ahsan
+
 % J = zeros(1,4,length(t));
 % J(1,3,:) = 1;
 % J(1,4,:) = 4*t;
