@@ -1,26 +1,5 @@
 function prob = ddaecoll_isol2seg(prob, oid, varargin)
-%COLL_ISOL2SEG   Append 'coll' instance constructed from initial data.
-%
-% Parse input sequence to construct toolbox data and initial solution guess
-% and use this to construct an instance of 'coll'.
-%
-% PROB     = COLL_ISOL2SEG(PROB, OID, VARARGIN)
-% VARARGIN = { @F [(@DFDX | '[]') (@DFDy | '[]') [(@DFDP | '[]')]] T0 X0 [PNAMES] P0 }
-%
-% PROB   - Continuation problem structure.
-% OID    - Object instance identifier (string).
-% @F     - Function handle to vector field.
-% @DFDX  - Optional function handle to Jacobian w.r.t. problem variables.
-% @DFDP  - Optional function handle to Jacobian w.r.t. problem parameters.
-% T0     - Array of temporal mesh points.
-% X0     - Array of state vectors at mesh points (rectangular matrix with
-%          size(x0,1) == numel(t0).
-% PNAMES - Optional string label or cell array of string labels for
-%          continuation parameters tracking problem parameters.
-% P0     - Initial solution guess for problem parameters.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: coll_isol2seg.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan, Mingwu Li
 
 tbid = coco_get_id(oid, 'ddaecoll'); % Create toolbox instance identifier
 str  = coco_stream(varargin{:}); % Convert varargin to stream of tokens for argument parsing
