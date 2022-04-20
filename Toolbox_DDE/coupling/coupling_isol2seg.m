@@ -1,5 +1,7 @@
 function prob = coupling_isol2seg(prob, oid, W, varargin)
 
+% Copyright (C) Zaid Ahsan
+
 if isempty(W)
 tbid = coco_get_id(oid, 'coupling'); % Create toolbox instance identifier
 else
