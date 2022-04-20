@@ -1,19 +1,5 @@
 function ddaecoll_arg_check(tbid, data, t0, x0, y0, p0)
-%COLL_ARG_CHECK   Basic argument checking for 'coll' toolbox.
-%
-% Validate user-supplied inputs and terminate execution with suitable error
-% messages if the inputs fail to be of the correct type.
-%
-% COLL_ARG_CHECK(TBID, DATA, T0, X0, P0)
-%
-% TBID - Toolbox instance identifier.
-% DATA - Toolbox data structure.
-% T0   - Array of temporal mesh points.
-% X0   - Array of state vectors at mesh points.
-% P0   - Initial solution guess for problem parameters.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: coll_arg_check.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan, Mingwu Li
 
 assert(isa(data.fhan, 'function_handle'), ...
   '%s: input for ''f'' is not a function handle', tbid);
