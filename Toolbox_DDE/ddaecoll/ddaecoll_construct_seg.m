@@ -1,19 +1,5 @@
 function prob = ddaecoll_construct_seg(prob, tbid, data, sol)
-%COLL_CONSTRUCT_SEG   Append an instance of 'coll' to problem.
-%
-% Add collocation and continuity conditions, monitor functions that
-% evaluate to the problem parameters, and corresponding inactive
-% continuation parameters.
-%
-% PROB = COLL_CONSTRUCT_SEG(PROB, TBID, DATA, SOL)
-%
-% PROB - Continuation problem structure.
-% TBID - Toolbox instance identifier.
-% DATA - Toolbox data structure.
-% SOL  - Initial solution guess.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: coll_construct_seg.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan, Mingwu Li
 
 prob = coco_add_func(prob, tbid, @ddaecoll_F, @ddaecoll_DFDU, data, 'zero', ...
   'u0', sol.u);
