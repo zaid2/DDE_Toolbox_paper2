@@ -1,5 +1,7 @@
 function J = fcn_ctrl_dt(t,p)
 
+% Copyright (C) Zaid Ahsan
+
 % T0 = 1;
 % T1 = t;
 % T2 = 2*t.^2-1;
