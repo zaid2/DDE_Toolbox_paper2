@@ -1,16 +1,5 @@
 function prob = msddaebvp_close_segs(prob, tbid, data)
-%MSBVP_CLOSE_SEGS   Append an instance of 'msbvp' to problem.
-%
-% Add boundary conditions to multiple instances of 'coll'.
-%
-% PROB = MSBVP_CLOSE_SEGS(PROB, TBID, DATA)
-%
-% PROB - Continuation problem structure.
-% TBID - Toolbox instance identifier.
-% DATA - Toolbox data structure.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: msbvp_close_segs.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan
 
 if ~isempty(data.bc_update) % Optional inclusion of boundary conditions function data
   data.tbid = tbid;
