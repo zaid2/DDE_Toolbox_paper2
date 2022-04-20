@@ -1,5 +1,7 @@
 function ydot = connecting_f(t,x,y,p)
 
+% Copyright (C) Zaid Ahsan
+
 x1 = x(1,:);
 x2 = x(2,:);
 
