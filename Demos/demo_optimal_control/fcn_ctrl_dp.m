@@ -1,5 +1,7 @@
 function J = fcn_ctrl_dp(t,p)
 
+% Copyright (C) Zaid Ahsan
+
 % y = zeros(1,length(p),length(t));
 
 % T0 = 1;
