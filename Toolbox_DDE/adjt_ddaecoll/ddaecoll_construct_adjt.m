@@ -1,8 +1,5 @@
 function [prob, data] = ddaecoll_construct_adjt(prob, tbid, data, sol)
-%COLL_CONSTRUCT_ADJT   Add COLL adjoint problem.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz, Mingwu Li
-% $Id: coll_construct_opt.m 2872 2015-08-06 20:12:06Z hdankowicz $
+% Copyright (C) Zaid Ahsan, Mingwu Li
 
 % [data, sol] = init_data(data, sol);
 opt  = data.ddaecoll_opt;
