@@ -1,5 +1,7 @@
 function [sol, data] = coupling_read_solution(tbid, run, lab)
 
+% Copyright (C) Zaid Ahsan
+
 % tbid         = coco_get_id(oid, 'coupling');
 [data,chart] = coco_read_solution(tbid, run, lab);
 
