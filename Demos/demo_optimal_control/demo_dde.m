@@ -1,5 +1,6 @@
 % coco_use_recipes_toolbox ddecoll_vz1
                              
+% Copyright (C) Zaid Ahsan                             
 %% 2-dimensional continuation  
 alpha = 1;
 [t0,x0,y0] = init_guess_dde23(alpha);
