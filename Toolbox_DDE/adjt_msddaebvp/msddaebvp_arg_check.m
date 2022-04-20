@@ -1,17 +1,5 @@
 function msddebvp_arg_check(prob, tbid, data)
-%MSBVP_ARG_CHECK   Basic argument checking for 'msbvp' toolbox.
-%
-% Validate user-supplied inputs and terminate execution with suitable error
-% messages if the inputs fail to be of the correct type.
-%
-% MSBVP_ARG_CHECK(PROB, TBID, DATA)
-%
-% PROB - Continuation problem structure.
-% TBID - Toolbox instance identifier.
-% DATA - Toolbox data structure.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: msbvp_arg_check.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan
 
 assert(data.nsegs~=0, '%s: insufficient number of segments', tbid);
 pnum = [];
