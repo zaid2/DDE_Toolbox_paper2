@@ -1,24 +1,6 @@
 function prob = msddaebvp_isol2segs(prob, oid, varargin)
-%MSBVP_ISOL2SEGS   Append 'msbvp' instance constructed from initial data.
-%
-% Construct multiple instances of 'coll' and append boundary conditions.
-%
-% PROB     = MSBVP_ISOL2SEGS(PROB, OID, VARARGIN)
-% VARARGIN = { COLL... ( PNAMES | 'END-COLL' ) BCND }
-% BCND     = @BC [@DBCDX] [BC_DATA [@BC_UPDATE]]
-%
-% PROB       - Continuation problem structure.
-% OID        - Object instance identifier (string).
-% COLL       - Argument to coll_isol2seg without PNAMES.
-% PNAMES     - Optional string label or cell array of string labels for
-%              continuation parameters tracking problem parameters.
-% @BC        - Boundary conditions function handle.
-% @DBCDX     - Optional function handle to Jacobian w.r.t. T, x0, x1, p.
-% BC_DATA    - Optional boundary condition function data (struct).
-% @BC_UPDATE - Optional function handle to function data updater.
 
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: msbvp_isol2segs.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan
 
 tbid = coco_get_id(oid, 'msbvp'); % Create toolbox instance identifier
 str  = coco_stream(varargin{:});  % Convert varargin to stream of tokens for argument parsing
