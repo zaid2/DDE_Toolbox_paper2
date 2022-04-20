@@ -1,17 +1,5 @@
 function data = ddaecoll_init_data(data, x0, y0, p0)
-%COLL_INIT_DATA   Initialize toolbox data for an instance of 'coll'.
-%
-% Populate remaining fields of the toolbox data structure used by 'coll'
-% function objects.
-%
-% DATA = COLL_INIT_DATA(DATA, X0, P0)
-%
-% DATA - Toolbox data structure.
-% X0   - Initial solution guess for discretized trajectory.
-% P0   - Initial solution guess for problem parameters.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: coll_init_data.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan, Mingwu Li
 
 NTST = data.ddaecoll.NTST; % Number of mesh intervals
 NCOL = data.ddaecoll.NCOL; % Degree of polynomial interpolants
