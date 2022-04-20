@@ -1,16 +1,5 @@
 function data = adjt_ddaecoll_get_settings(prob, tbid, data)
-%COLL_GET_SETTINGS   Read 'coll' toolbox instance settings.
-%
-% Merge user-supplied toolbox settings with default values.
-%
-% DATA = COLL_GET_SETTINGS(PROB, TBID, DATA)
-%
-% PROB - Continuation problem structure.
-% TBID - Toolbox instance identifier.
-% DATA - Toolbox data strcture.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: coll_get_settings.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan, Mingwu Li
 
 defaults.NTST = 10; % Number of mesh intervals
 defaults.NCOL = 4;  % Degree of interpolating polynomials
