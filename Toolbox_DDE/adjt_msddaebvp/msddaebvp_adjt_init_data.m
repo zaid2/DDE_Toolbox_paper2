@@ -1,17 +1,5 @@
 function data = msddaebvp_adjt_init_data(prob, tbid, src_data)
-%MSBVP_INIT_DATA   Initialize toolbox data for an instance of 'msbvp'.
-%
-% Populate remaining fields of the toolbox data structure used by 'msbvp'
-% function objects.
-%
-% DATA = MSBVP_INIT_DATA(PROB, TBID, DATA)
-%
-% DATA - Toolbox data structure.
-% PROB - Continuation problem structure.
-% TBID - Toolbox instance identifier.
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: msbvp_init_data.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan
 
 % xnum = 0;
 % for i=1:data.nsegs
