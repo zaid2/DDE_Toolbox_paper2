@@ -1,20 +1,5 @@
 function prob = adjt_msddaebvp_sol2segs(prob, oid, varargin)
-%MSBVP_SOL2SEGS   Append 'msbvp' instance constructed from saved data.
-%
-% Support restarting continuation from a previously obtained solution,
-% stored to disk.
-%
-% PROB     = MSBVP_SOL2SEGS(PROB, OID, VARARGIN)
-% VARARGIN = { RUN [SOID] LAB }
-%
-% PROB - Continuation problem structure.
-% OID  - Target object instance identifier (string).
-% RUN  - Run identifier (string).
-% SOID - Source object instance identifier (string).
-% LAB  - Solution label (integer).
-
-% Copyright (C) Frank Schilder, Harry Dankowicz
-% $Id: msbvp_sol2segs.m 2839 2015-03-05 17:09:01Z fschild $
+% Copyright (C) Zaid Ahsan
 
 ttbid = coco_get_id(oid, 'msbvp'); % Create toolbox instance identifier
 str = coco_stream(varargin{:});    % Convert varargin to stream of tokens for argument parsing
