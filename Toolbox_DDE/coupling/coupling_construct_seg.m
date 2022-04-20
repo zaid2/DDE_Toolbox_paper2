@@ -1,4 +1,5 @@
 function prob = coupling_construct_seg(prob, tbid, data,sol)
+% Copyright (C) Zaid Ahsan
 
 prob = coco_add_func(prob, tbid, @coup_dde_F, @coup_dde_DFDU, data,...
                                      'zero', 'uidx', data.guidx, 'u0',sol);
