@@ -1,5 +1,7 @@
 %% Run to find the zero solution from the Hopf point
 
+% Copyright (C) Zaid Ahsan
+
 alpha=0.8255; p1=0.5; p2 = -1.257;
 T = 2*pi/0.868;
 t0 = (0:0.01:T)';
