@@ -1,5 +1,5 @@
 function init_guess_dde23()
-
+% Copyright (C) Zaid Ahsan
 alpha = 0.8255; T = 21.87; p1 = 0.5; p2 = -1.0783;
 tau = alpha/T;
 sol = dde23(@ddex1de,tau,@ddex1hist,[0, 1]);
