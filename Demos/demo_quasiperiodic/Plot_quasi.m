@@ -1,5 +1,5 @@
 %Plotting the quasiperiodic case
-
+% Copyright (C) Zaid Ahsan
 bd = coco_bd_read('run_multiplefolds');
 
 for i=1
