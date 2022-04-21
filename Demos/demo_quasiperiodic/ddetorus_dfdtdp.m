@@ -1,6 +1,6 @@
 function J = ddetorus_dfdtdp(t, x, y, p)
 %TORUS_DFDT   'coll'-compatible encoding of vector field.
-
+% Copyright (C) Zaid Ahsan
 x1 = x(1,:);
 x2 = x(2,:);
 
