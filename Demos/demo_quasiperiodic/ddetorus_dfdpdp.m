@@ -1,6 +1,6 @@
 function J = ddetorus_dfdpdp(t, x, y, p)
 %TORUS_DFDX   'coll'-compatible encoding of Jacobian of vector field w.r.t. problem variables
-
+% Copyright (C) Zaid Ahsan
 x1 = x(1,:);
 x2 = x(2,:);
 
