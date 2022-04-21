@@ -1,5 +1,7 @@
 function [data,dJ] = sys_obj_du(prob,data,u)
 
+% Copyright (C) Zaid Ahsan
+
 NTST = data.ddaecoll.NTST;
 W = data.W; wts = data.wts;
 xbp = u(data.xbp_idx);
