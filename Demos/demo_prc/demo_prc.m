@@ -1,5 +1,5 @@
 %% ===PRC of Mackey-Glass Equation
-
+% Copyright (C) Zaid Ahsan
 % Run1: To get family of periodic orbits
 
 a=2; b=10; 
