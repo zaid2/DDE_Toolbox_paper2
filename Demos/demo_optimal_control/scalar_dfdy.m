@@ -1,5 +1,7 @@
 function J = scalar_dfdy(t,x,y,p)
 
+% Copyright (C) Zaid Ahsan
+
 x  = x(1,:);
 xd = y(1,:);
 u  = y(2,:);
