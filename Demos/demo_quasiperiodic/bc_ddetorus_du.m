@@ -1,4 +1,5 @@
 function J = bc_ddetorus_du(data, T0, T, x0, x1, p)
+% Copyright (C) Zaid Ahsan
 %TORUS_BC   Torus boundary conditions.
 %
 % Trajectory end points lie on a curve on the invariant torus. The return
