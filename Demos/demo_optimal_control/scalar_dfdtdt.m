@@ -1,5 +1,6 @@
 function J = scalar_dfdtdt(t,x,y,p)
 
+% Copyright (C) Zaid Ahsan
 
 J = zeros(1,length(t));
 
