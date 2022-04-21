@@ -1,5 +1,5 @@
 function J = mackey_dfdtdt(t,x,y,p)
-
+% Copyright (C) Zaid Ahsan
 x  = x(1,:);
 xd = y(1,:);
 a  = p(1,:);
