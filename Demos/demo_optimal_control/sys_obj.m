@@ -1,5 +1,7 @@
 function [data,y]=sys_obj(prob,data,u)
 
+% Copyright (C) Zaid Ahsan
+
 NTST = data.ddaecoll.NTST;
 W = data.W; wts = data.wts;
 xbp = u(data.xbp_idx);
