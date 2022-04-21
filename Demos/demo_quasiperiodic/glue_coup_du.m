@@ -1,5 +1,5 @@
 function [data, J] = glue_coup_du(prob, data, u)
-
+% Copyright (C) Zaid Ahsan
 alpha     = u(end-1);
 T         = u(end);
 
