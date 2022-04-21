@@ -1,3 +1,4 @@
+% Copyright (C) Zaid Ahsan
 N=5;
 varrho = 1/1.51111;
 M = 2*N+1;
