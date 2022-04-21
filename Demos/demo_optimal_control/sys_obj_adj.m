@@ -1,5 +1,7 @@
 function [data, J] = sys_obj_adj(prob, data,u)
 
+% Copyright (C) Zaid Ahsan
+
 NTST = data.ddaecoll.NTST;
 NCOL = data.ddaecoll.NCOL;
 W = data.W; 
