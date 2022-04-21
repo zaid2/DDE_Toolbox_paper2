@@ -1,5 +1,5 @@
 %====function plot function
-
+% Copyright (C) Zaid Ahsan
 %=====plotting alpha vs om2 vs om1
 
 bd = coco_bd_read('run_test6');
