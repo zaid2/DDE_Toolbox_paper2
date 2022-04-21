@@ -1,5 +1,7 @@
 function [t0,x0,y0] = init_guess_dde23(tau)
 
+% Copyright (C) Zaid Ahsan
+
 sol = dde23(@ddex1de,tau,@ddex1hist,[0, 2]);
 % figure;
 % plot(sol.x,sol.y(1,:))
