@@ -1,6 +1,6 @@
 
 %% Adding the vector field
-
+% Copyright (C) Zaid Ahsan
  
 % Construct 'ddecoll' arguments
 alpha = 0.1; 
